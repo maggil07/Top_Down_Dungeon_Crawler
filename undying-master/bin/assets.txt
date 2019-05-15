@@ -1,0 +1,77 @@
+Texture   TexExplode                    images/misc/explosion128.png
+Texture   TexRunDown                    images/player/player_run_down.png              
+Texture   TexRunRight                   images/player/player_run_right.png
+Texture   TexRunUp                      images/player/player_run_up.png
+Texture   TexStandD                     images/player/player_stand_down.png              
+Texture   TexStandR                     images/player/player_stand_right.png
+Texture   TexStandU                     images/player/player_stand_up.png
+Texture   TexDead                       images/player/player_dead.png
+Texture   TexAtkDown                    images/player/player_stand_down.png
+Texture   TexAtkRight                   images/player/player_stand_right.png
+Texture   TexAtkUp                      images/player/player_stand_up.png
+
+Texture   TexSwordUp                    images/tloz/item_sword_up.png
+Texture   TexSwordRight                 images/tloz/item_sword_right.png
+
+Texture   TexDunFloor1                  images/tiles/dungeon/floor_1.png
+Texture   TexDunFloor1Cracked           images/tiles/dungeon/floor_1_cracked.png
+Texture   TexDunFloor2                  images/tiles/dungeon/floor_2.png
+Texture   TexDunFloor2Brick             images/tiles/dungeon/floor_2_brick.png
+Texture   TexDunFloor2Tile              images/tiles/dungeon/floor_2_tile.png
+Texture   TexDunFloor2TileCracked       images/tiles/dungeon/floor_2_tile_cracked.png
+Texture   TexDunWall1Bottom             images/tiles/dungeon/wall_1_bottom.png
+Texture   TexDunWall1Top                images/tiles/dungeon/wall_1_top.png
+Texture   TexDunWall2Bottom             images/tiles/dungeon/wall_2_bottom.png
+Texture   TexDunWall2Top                images/tiles/dungeon/wall_2_top.png
+Texture   TexDunWallWindowBottom        images/tiles/dungeon/wall_window_bottom.png
+Texture   TexDunWallWindowTop           images/tiles/dungeon/wall_window_top.png
+Texture   TexDunDoorUpBL                images/tiles/dungeon/door_up_BL.png
+Texture   TexDunDoorUpBM                images/tiles/dungeon/door_up_BM.png
+Texture   TexDunDoorUpBR                images/tiles/dungeon/door_up_BR.png
+Texture   TexDunDoorUpTL                images/tiles/dungeon/door_up_TL.png
+Texture   TexDunDoorUpTM                images/tiles/dungeon/door_up_TM.png
+Texture   TexDunDoorUpTR                images/tiles/dungeon/door_up_TR.png
+
+Animation DunFloor1                     TexDunFloor1                1    0
+Animation DunFloor1Cracked              TexDunFloor1Cracked         1    0
+Animation DunFloor2                     TexDunFloor2                1    0
+Animation DunFloor2Brick                TexDunFloor2Brick           1    0
+Animation DunFloor2Tile                 TexDunFloor2Tile            1    0
+Animation DunFloor2TileCracked          TexDunFloor2TileCracked     1    0
+Animation DunWall1Bottom                TexDunWall1Bottom           1    0
+Animation DunWall1Top                   TexDunWall1Top              1    0
+Animation DunWall2Bottom                TexDunWall2Bottom           1    0
+Animation DunWall2Top                   TexDunWall2Top              1    0
+Animation DunWallWindowBottom           TexDunWallWindowBottom      1    0
+Animation DunWallWindowTop              TexDunWallWindowTop         1    0
+Animation DunDoorUpBL                   TexDunDoorUpBL              1    0
+Animation DunDoorUpBM                   TexDunDoorUpBM              1    0
+Animation DunDoorUpBR                   TexDunDoorUpBR              1    0
+Animation DunDoorUpTL                   TexDunDoorUpTL              1    0
+Animation DunDoorUpTM                   TexDunDoorUpTM              1    0
+Animation DunDoorUpTR                   TexDunDoorUpTR              1    0
+
+Animation Explosion                     TexExplode     48    2 
+Animation RunDown                       TexRunDown      2   12   
+Animation RunRight                      TexRunRight     2   12   
+Animation RunUp                         TexRunUp        2   12
+Animation StandDown                     TexStandD       1    0   
+Animation StandRight                    TexStandR       1    0    
+Animation StandUp                       TexStandU       1    0
+Animation Dead                          TexDead         1    0
+
+Animation AtkUp                         TexAtkUp        1    0
+Animation AtkDown                       TexAtkDown      1    0
+Animation AtkRight                      TexAtkRight     1    0   
+Animation SwordUp                       TexSwordUp      1    0
+Animation SwordRight                    TexSwordRight   1    0
+
+Music	  MainMenu			audio/main_menu.wav
+Music	  PlayBG			audio/play_bg.wav
+Music     PlayBoss                      audio/play_boss.wav
+
+Font      Mana                          fonts/manaspc.ttf
+Texture   TexBowRight   images/tloz/item_bow.png
+Texture   TexBowUp      images/tloz/item_bow_up.png
+Animation BowRight      TexBowRight     1    0
+Animation BowUp         TexBowUp        1    0
